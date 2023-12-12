@@ -1,4 +1,4 @@
-FROM swift:5.8.0-jammy as build
+FROM swift:5.9.2-jammy as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y wget gpg
