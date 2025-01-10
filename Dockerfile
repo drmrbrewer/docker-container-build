@@ -1,4 +1,4 @@
-FROM swift:5.9.2-jammy as build
+FROM swift:6.0.3-jammy as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y wget gpg curl
